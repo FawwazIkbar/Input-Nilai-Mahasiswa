@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 500px;
+  padding: 10px 50px;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 1.3rem;
+  border: 1px solid black;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 0.7rem;
+  justify-content: center;
+}
+form label {
+  margin-top: 0.8rem;
+}
+form input {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  width: 100%;
+}
+form .matkul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+form .matkul .matkul-item input {
+  width: 100%;
+}
+
+form .matkul .matkul-item {
+  display: flex;
+  flex-direction: column;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form button {
+  margin-top: 20px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  width: 50%;
+}
